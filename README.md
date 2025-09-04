@@ -29,7 +29,8 @@ src
 └── test
     └── java/autotests/api/tests
         ├── store/          # Tests for /store/order, /store/inventory
-        └── providers/      # JUnit providers for parameterized tests
+        ├── providers/      # JUnit providers for parameterized tests
+        └── support/        # Infrastructure helpers for tests
 ```
 
 ## Configuration
